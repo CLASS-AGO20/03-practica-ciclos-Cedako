@@ -17,6 +17,18 @@ export default class App {
         return string;
     }
 
+    obtenerDivisibles (numero) {
+        let i = 1;
+        let divisbles = 0;
+        do{
+            if (numero%i===0) {
+                divisbles++
+            }
+            i++
+        }
+        while (i<=numero);
+        return divisbles;
+    }
     
 }
 
