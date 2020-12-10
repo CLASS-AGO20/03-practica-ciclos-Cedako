@@ -29,6 +29,13 @@ export default class App {
         while (i<=numero);
         return divisbles;
     }
+
+    elevar(numero, potencia) {
+        let t=numero;
+        for (let i=1; i<=potencia; i++) {
+        }
+        return numero**potencia;
+    }
     
 }
 
@@ -37,3 +44,4 @@ let app = new App();
 console.log(app.factorial(5));
 console.log(app.convertirAString(1000));
 console.log(app.obtenerDivisibles(4));
+console.log(app.elevar(2,2))
